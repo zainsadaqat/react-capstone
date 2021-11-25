@@ -1,23 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { useDispatch, useSelector } from 'react-redux';
+import { NavLink } from 'react-router-dom';
+import { fetchEnglandData } from '../store/actions';
 
 const Home = () => {
   const uk = ['england-and-wales', 'northern-ireland', 'scotland', 'uk'];
-  const [englandData, setEnglandData] = useState([]);
-  const [irelandData, setIrelandData] = useState([]);
-  const [scotlandData, setScotlandData] = useState([]);
+
   const [searchTerm, setSearchTerm] = useState('');
 
-  // const handleAPI = async () => {
-  //   const response = await axios.get('https://www.gov.uk/bank-holidays.json');
-  //   const data = await response.data;
-  //   setEnglandData(data['england-and-wales'].events);
-  //   setIrelandData(data['northern-ireland'].events);
-  //   setScotlandData(data.scotland.events);
-  // };
-
-  const response = [...englandData, ...irelandData, ...scotlandData];
-  console.log('Response: ', response);
+  // const response = [...englandData, ...irelandData, ...scotlandData];
+  // console.log('Response: ', response);
 
   return (
     <div>
@@ -37,7 +30,11 @@ const Home = () => {
             }
           })
           .map((resp) => (
-            <li key={resp}>{resp}</li>
+            <li key={resp}>
+              <NavLink exact to="/details">
+                {resp}
+              </NavLink>
+            </li>
           ))}
       </ol>
     </div>
