@@ -1,0 +1,61 @@
+h1 {
+  background-color: #4269b2;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.65em 0.85em;
+  width: 100%;
+  background-color: #7298dd;
+}
+
+::placeholder {
+  color: rgb(220, 220, 220);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper > li {
+  flex: 1 1 100px;
+  text-align: right;
+  min-height: 132px;
+  padding: 6px;
+}
+
+.wrapper > li:hover {
+  background-color: #7298dd;
+}
+
+.wrapper > li:nth-child(2) {
+  background-color: #001e57;
+}
+
+.wrapper > li:nth-child(3) {
+  background-color: #001e57;
+}
+
+.category-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.category-name {
+  color: rgb(220, 220, 220);
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.total-holidays {
+  color: rgb(220, 220, 220);
+}
