@@ -33,5 +33,5 @@ const IrelandData = ({ ireland }) => {
 export default IrelandData;
 
 IrelandData.propTypes = {
-  ireland: PropTypes.arrayOf(PropTypes.string).isRequired,
+  ireland: PropTypes.arrayOf(PropTypes.object).isRequired,
 };

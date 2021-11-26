@@ -1,22 +1,15 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
-import {
-  fetchEnglandData,
-  getEnglandDataLength,
-} from '../../../store/actions/index';
+import { fetchEnglandData } from '../../../store/actions/index';
 import RightArrow from '../../../assets/icons/right-arrow-circle-icon.svg';
 
 const EnglandData = ({ england }) => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchEnglandData());
-    dispatch(getEnglandDataLength());
   }, []);
-  const englandDataLength = useSelector(
-    (state) => state.Reducer.englandDataLength,
-  );
-  console.log('England Data Length: ', englandDataLength);
+
   return (
     <div>
       <h2 className="country-name">England Data</h2>
@@ -40,5 +33,5 @@ const EnglandData = ({ england }) => {
 export default EnglandData;
 
 EnglandData.propTypes = {
-  england: PropTypes.arrayOf(PropTypes.string).isRequired,
+  england: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
