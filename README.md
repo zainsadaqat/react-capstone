@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# React Redux Capstone Project (Bank Holidays in United Kingdom)
 
-Bank holidays in England and Wales, Scotland and Northern Ireland
+> In this project, we will be working with the real live data from the UK Govt API. We are going to build a web application that tells us the holidays in UK calender. Bank holidays in England and Wales, Scotland and Northern Ireland
 
-## Available Scripts
+#### Home
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/51750930/142662068-924a9e2a-f233-46a7-9170-fc8e6839ccf5.png)
 
-### `npm start`
+#### Details
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://user-images.githubusercontent.com/51750930/142675001-d61d0872-6480-441a-8452-2c9da16ea099.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Live Demo Link
 
-### `npm test`
+[SpaceX Adventures Hub](https://spacex-adventures-hub.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+- HTML
+- CSS
+- React
+- Redux
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1 - On Github, on the main page of the react-redux-capstone repository, click the Code button and copy "Clone with HTTPS" by clicking the copy icon.
+In your terminal, enter a git clone and past the link that you copied from the repository, and press the Enter
+(e.g. git clone https://github.com/zainsadaqat/react-redux-capstone.git).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- To get a local copy up and running follow these steps.
 
-### `npm run eject`
+2 - open your terminal and clone the project running
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`git clone https://github.com/zainsadaqat/react-redux-capstone.git`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3 - install or update your npm running
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`npm install`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+or if you have it installed already
 
-## Learn More
+`npm update`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4 - start your local server and build project using
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`npm start`
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Zain Sadaqat**
 
-### Analyzing the Bundle Size
+- GitHub: [@githubhandle](https://github.com/zainsadaqat)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zain-sadaqat/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to check the [issues page](../../issues/).
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Give a ⭐️ if you like this project!
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Original design idea by Nelson Sakwa on Behance I
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
