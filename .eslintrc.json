@@ -25,7 +25,9 @@
     "indent": "off",
     "no-unused-vars": "off",
     "array-callback-return": "off",
-    "consistent-return": "off"
+    "consistent-return": "off",
+    "object-curly-newline": "off",
+    "react/jsx-wrap-multilines": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
 }
