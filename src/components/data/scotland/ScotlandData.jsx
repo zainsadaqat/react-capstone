@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
-import PropTypes from 'prop-types';
+import { useDispatch, useSelector } from 'react-redux';
 import { fetchScotlandData } from '../../../store/actions/index';
 import RightArrow from '../../../assets/icons/right-arrow-circle-icon.svg';
 
-const ScotlandData = ({ scotland }) => {
+const ScotlandData = () => {
   const dispatch = useDispatch();
+  const scotland = useSelector((state) => state.Reducer.scotland);
+
   useEffect(() => {
     dispatch(fetchScotlandData());
   }, []);
@@ -31,7 +32,3 @@ const ScotlandData = ({ scotland }) => {
 };
 
 export default ScotlandData;
-
-ScotlandData.propTypes = {
-  scotland: PropTypes.arrayOf(PropTypes.object).isRequired,
-};
