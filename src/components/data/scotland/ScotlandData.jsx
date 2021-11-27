@@ -12,7 +12,7 @@ const ScotlandData = ({ scotland }) => {
 
   return (
     <div>
-      <h2 className="country-name">Scotland Data</h2>
+      <h2 className="country-name">Scotland Data ({scotland.length})</h2>
       <ol className="card">
         {scotland.map((data) => (
           <li key={data.id} className="card-items">
