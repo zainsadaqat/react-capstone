@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# React Redux Capstone Project (Bank Holidays in United Kingdom)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> In this project, we will be working with the real live data from the UK Govt API. We are going to build a web application that tells us the holidays in UK calender. Bank holidays in England and Wales, Scotland and Northern Ireland
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- HTML
+- CSS
+- React
+- Redux
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1 - On Github, on the main page of the react-redux-capstone repository, click the Code button and copy "Clone with HTTPS" by clicking the copy icon.
+In your terminal, enter a git clone and past the link that you copied from the repository, and press the Enter
+(e.g. git clone https://github.com/zainsadaqat/react-redux-capstone.git).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- To get a local copy up and running follow these steps.
 
-### `npm test`
+2 - open your terminal and clone the project running
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`git clone https://github.com/zainsadaqat/react-redux-capstone.git`
 
-### `npm run build`
+3 - install or update your npm running
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+or if you have it installed already
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm update`
 
-### `npm run eject`
+4 - start your local server and build project using
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`npm start`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Testing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+We use Jest library to test our code.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You can run those tests locally if you follow the steps above from 1 to 3, and then run:
 
-## Learn More
+`npm test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Loom Video Explanation about the Project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Loom Video](https://www.loom.com/share/5c12471fa5d144848101abc769a9bc05)
 
-### Code Splitting
+## Live Project Link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[React Redux Capstone Bank Holidays in UK hosted on Netlify](https://react-capstone-bank-holidays-in-uk.netlify.app/)
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 **Zain Sadaqat**
 
-### Making a Progressive Web App
+- GitHub: [@githubhandle](https://github.com/zainsadaqat)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zain-sadaqat/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to check the [issues page](../../issues/).
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a ⭐️ if you like this project!
 
-### `npm run build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Original design idea by **Nelson Sakwa** on **Behance**
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

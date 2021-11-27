@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing react-redux-capstone project Components Testing EnglandData Component 1`] = `
+<div>
+  <h2
+    className="country-name"
+  >
+    England Data (
+    0
+    )
+  </h2>
+  <ol
+    className="card"
+  />
+</div>
+`;
+
+exports[`Testing react-redux-capstone project Components Testing IrelandData Component 1`] = `
+<div>
+  <h2
+    className="country-name"
+  >
+    Ireland Data (
+    0
+    )
+  </h2>
+  <ol
+    className="card"
+  />
+</div>
+`;
