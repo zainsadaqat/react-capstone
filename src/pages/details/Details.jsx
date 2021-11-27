@@ -18,6 +18,7 @@ const Details = ({ england, ireland, scotland }) => {
       {country === ':scotland' && <ScotlandData scotland={scotland} />}
       {country === ':uk' && (
         <>
+          <h2 className="country-name">UK</h2>
           <EnglandData england={england} />
           <IrelandData ireland={ireland} />
           <ScotlandData scotland={scotland} />
