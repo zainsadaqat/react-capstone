@@ -23,9 +23,9 @@ h1 {
 }
 
 .wrapper > li {
-  flex: 1 1 100px;
+  flex: 1 1 150px;
   text-align: right;
-  min-height: 132px;
+  min-height: 200px;
   padding: 6px;
 }
 
