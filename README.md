@@ -4,15 +4,11 @@
 
 #### Home
 
-![image](https://user-images.githubusercontent.com/51750930/142662068-924a9e2a-f233-46a7-9170-fc8e6839ccf5.png)
+![image]('./../src/assets/img/home-page.png')
 
 #### Details
 
-![image](https://user-images.githubusercontent.com/51750930/142675001-d61d0872-6480-441a-8452-2c9da16ea099.png)
-
-#### Live Demo Link
-
-[SpaceX Adventures Hub](https://spacex-adventures-hub.netlify.app/)
+![image]('./../src/assets/img/details-page.png')
 
 ## Built With
 
@@ -45,6 +41,14 @@ or if you have it installed already
 
 `npm start`
 
+## Testing
+
+We use Jest library to test our code.
+
+You can run those tests locally if you follow the steps above from 1 to 3, and then run:
+
+`npm test`
+
 ## Author
 
 👤 **Zain Sadaqat**
@@ -64,7 +68,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design idea by Nelson Sakwa on Behance I
+- Original design idea by **Nelson Sakwa** on **Behance**
 
 ## 📝 License
 
