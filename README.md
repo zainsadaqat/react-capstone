@@ -41,6 +41,10 @@ You can run those tests locally if you follow the steps above from 1 to 3, and t
 
 `npm test`
 
+## Loom Video Explanation about the Project
+
+[Loom Video](https://www.loom.com/share/5c12471fa5d144848101abc769a9bc05)
+
 ## Live Project Link
 
 [React Redux Capstone Bank Holidays in UK hosted on Netlify](https://react-capstone-bank-holidays-in-uk.netlify.app/)
