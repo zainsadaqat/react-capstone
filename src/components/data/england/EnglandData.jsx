@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import PropTypes from 'prop-types';
 import { fetchEnglandData } from '../../../store/actions/index';
 import RightArrow from '../../../assets/icons/right-arrow-circle-icon.svg';
 
-const EnglandData = ({ england }) => {
+const EnglandData = () => {
   const dispatch = useDispatch();
+  const england = useSelector((state) => state.Reducer.england);
+
   useEffect(() => {
     dispatch(fetchEnglandData());
   }, []);
@@ -31,7 +32,3 @@ const EnglandData = ({ england }) => {
 };
 
 export default EnglandData;
-
-EnglandData.propTypes = {
-  england: PropTypes.arrayOf(PropTypes.object).isRequired,
-};
