@@ -12,7 +12,7 @@ const Details = () => {
   const { country } = useParams();
 
   return (
-    <div className="details-container">
+    <div>
       {country === ':england-and-wales' && <EnglandData />}
       {country === ':northern-ireland' && <IrelandData />}
       {country === ':scotland' && <ScotlandData />}
