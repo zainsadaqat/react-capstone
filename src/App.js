@@ -35,18 +35,8 @@ const App = () => {
             <Home england={england} ireland={ireland} scotland={scotland} />
           }
         />
-        <Route
-          path="/details"
-          element={
-            <Details england={england} ireland={ireland} scotland={scotland} />
-          }
-        />
-        <Route
-          path="/details/:country"
-          element={
-            <Details england={england} ireland={ireland} scotland={scotland} />
-          }
-        />
+        <Route path="/details" element={<Details />} />
+        <Route path="/details/:country" element={<Details />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </Router>
