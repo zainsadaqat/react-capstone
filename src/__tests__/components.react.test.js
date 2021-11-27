@@ -10,7 +10,7 @@ describe('Testing react-redux-capstone project Components', () => {
     const englandData = renderer.create(
       <Provider store={store}>
         <EnglandData />
-      </Provider>
+      </Provider>,
     );
     const tree = englandData.toJSON();
     expect(tree).toMatchSnapshot();
@@ -19,7 +19,7 @@ describe('Testing react-redux-capstone project Components', () => {
     const irelandData = renderer.create(
       <Provider store={store}>
         <IrelandData />
-      </Provider>
+      </Provider>,
     );
     const tree = irelandData.toJSON();
     expect(tree).toMatchSnapshot();

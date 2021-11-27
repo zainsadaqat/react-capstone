@@ -10,7 +10,7 @@ describe('Testing Routes (Home and Details)', () => {
       <MemoryRouter initialEntries={['/']}>
         <section>Home Page</section>
       </MemoryRouter>,
-      rootElement
+      rootElement,
     );
 
     expect(document.body.textContent).toBe('Home Page');
@@ -25,7 +25,7 @@ describe('Testing Routes (Home and Details)', () => {
       <MemoryRouter initialEntries={['/']}>
         <article>Details Page</article>
       </MemoryRouter>,
-      rootElement
+      rootElement,
     );
 
     expect(document.body.textContent).toBe('Details Page');
