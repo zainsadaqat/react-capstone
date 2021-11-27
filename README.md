@@ -2,14 +2,6 @@
 
 > In this project, we will be working with the real live data from the UK Govt API. We are going to build a web application that tells us the holidays in UK calender. Bank holidays in England and Wales, Scotland and Northern Ireland
 
-#### Home
-
-![image]('./../src/assets/img/home-page.png')
-
-#### Details
-
-![image]('./../src/assets/img/details-page.png')
-
 ## Built With
 
 - HTML
